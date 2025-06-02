@@ -12,7 +12,9 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "live-server": "^1.2.2",
-        "node-sass": "^9.0.0"
+        "live-server": "^1.2.2"
+    },
+    "dependencies": {
+        "sass": "^1.89.1"
     }
 }
