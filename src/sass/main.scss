@@ -1,9 +1,6 @@
+// Primeiro: @use (antes de qualquer coisa)
+@use './reset/reset';
+@use './components/index' as *;
+
+// Depois: fontes externas
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
-
-@import "./reset/reset";
-
-@import "./components/container";
-@import "./components/balance-card";
-@import "./components/credit-card";
-@import "./components/debit-card";
-@import "./components/client-infos-card";
