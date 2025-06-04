@@ -1,3 +1,20 @@
-.debit-card {
-    
+.debit-card-header {
+    background-color: #e98132;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    img {
+        width: 5%;
+    }
+}
+
+.debit-card-body {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
 }
