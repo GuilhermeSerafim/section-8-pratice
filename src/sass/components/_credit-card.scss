@@ -1,3 +1,48 @@
-.credit-card {
-    
+.credit-card-header {
+    background-color: #e98132;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* x, y, blur, cor */
+
+    img {
+        width: 5%;
+    }
+}
+
+.credit-card-body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    &-contains {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    hr {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+    &-nr {
+        padding: 20px 0 0 20px;
+    }
+
+    &-name {
+        padding-left: 20px;
+        margin: -15px 0 40px 0;
+    }
+
+    &-type {
+        padding-right: 20px;
+        text-align: right;
+    }
+
 }
