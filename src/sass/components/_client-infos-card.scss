@@ -1,3 +1,35 @@
-.client-infos-card {
-    
+.client-infos-card-header {
+    background-color: #32e9da;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    img {
+        width: 5%;
+    }
+}
+
+.client-infos-body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    &-contains {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    hr {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    &:last-child {
+        border-radius: 0 0 5px 5px;
+    }
 }
